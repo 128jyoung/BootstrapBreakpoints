@@ -28,30 +28,66 @@
             min-height: 50px;
             }
 
-            [class^="col-"] {
+            [class^="col-lg-4"] {
+            border: 1px solid var(--light-green);
+            min-height: 400px;
+            }
+            [class^="col-lg-12"] {
             border: 1px solid var(--light-green);
             min-height: 50px;
+            }
+            [class^="col-md-12"] {
+            border: 1px solid var(--light-green);
+            min-height: 100px;
+            }
+            [class^="col-md-3"] {
+            border: 1px solid var(--light-green);
+            min-height: 400px;
+            }
+            [class^="top-col-sm-12"] {
+            border: 1px solid var(--light-green);
+            min-height: 700px;
+            }
+            [class^="middle-col-sm-12"] {
+            border: 1px solid var(--light-green);
+            min-height: 3000px;
+            }
+            [class^="two-middle-col-sm-12"] {
+            border: 1px solid var(--light-green);
+            min-height: 900px;
+            }
+            [class^="bottom-col-sm-12"] {
+            border: 1px solid var(--light-green);
+            min-height: 400px;
             }
         </style>
     <title>Challenge Multi</title>
   </head>
   <body>
+    <header>
+    <nav>
+        <a href="index.html">Home| </a>
+        <a href="Challenge-Md.html"> Challenge-Md | </a>
+        <a href="Challenge-Sm.html"> Challenge-Sm | </a>
+        <a href="Challenge.Multi.html">Challenge-Multi</a>
+    </nav>
+    </header>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-md-12 top-col-sm-12">
                 <h1>Hello</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-3 middle-col-sm-12">
                 <h1>Hello</h1>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-9 two-middle-col-sm-12">
                 <h1>Hello</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-md-12 bottom-col-sm-12">
                 <h1>Hello</h1>
             </div>
         </div>
